@@ -85,7 +85,7 @@ npm install n8n-nodes-amorce
 
 - [Amorce Documentation](https://amorce.io/docs)
 - [Trust Directory](https://amorce.io/registry)
-- [GitHub](https://github.com/trebortGolin/n8n-nodes-amorce)
+- [GitHub](https://github.com/AmorceAATP/n8n-nodes-amorce)
 
 ## 📜 License
 
