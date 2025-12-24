@@ -15,8 +15,8 @@ export class AmorceApi implements ICredentialType {
             displayName: 'Directory URL',
             name: 'directoryUrl',
             type: 'string',
-            default: 'https://amorce.io/api',
-            placeholder: 'https://amorce.io/api',
+            default: 'https://trust.amorce.io/api/v1',
+            placeholder: 'https://trust.amorce.io/api/v1',
             description: 'The Amorce Trust Directory API URL',
         },
         {
@@ -36,8 +36,8 @@ export class AmorceApi implements ICredentialType {
                 rows: 5,
             },
             default: '',
-            placeholder: '-----BEGIN EC PRIVATE KEY-----\n...\n-----END EC PRIVATE KEY-----',
-            description: 'Your agent\'s private key for signing transactions (EC P-256)',
+            placeholder: '-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----',
+            description: 'Your agent\'s Ed25519 private key for signing transactions (PEM format)',
         },
     ];
 

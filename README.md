@@ -44,9 +44,9 @@ npm install n8n-nodes-amorce
 
 1. **Register your workflow** as an agent at [amorce.io/register](https://amorce.io/register)
 2. **Add credentials** in n8n:
-   - Directory URL: `https://amorce.io/api`
+   - Directory URL: `https://trust.amorce.io/api/v1`
    - Agent ID: Your registered ID
-   - Private Key: Your EC P-256 private key (PEM format)
+   - Private Key: Your Ed25519 private key (PEM format)
 
 ## 📖 Examples
 
